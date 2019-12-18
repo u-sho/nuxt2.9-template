@@ -1,12 +1,12 @@
-# nuxt-components
+# {{ name }}
 
-> Nuxt atomic-designed components
+> {{ description }}
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ yarn
+$ yarn # Or npm install
 
 # serve with hot reload at localhost:3000
 $ yarn dev

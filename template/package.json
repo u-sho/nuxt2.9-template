@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-components",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "Nuxt atomic-designed components",
-  "author": "u-sho",
+  "description": "{{ description }}",
+  "author": "{{ name }}",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
