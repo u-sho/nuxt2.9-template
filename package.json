@@ -14,9 +14,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "latest",
-    "ant-design-vue": "latest",
-    "nuxt": "latest"
+    "@nuxt/typescript-runtime": "^0.3.0",
+    "nuxt": "^2.9.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.5.1",

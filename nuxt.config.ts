@@ -16,7 +16,6 @@ const nuxtConfig: Configuration = {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   loading: { color: '#fff' },
-  css: ['ant-design-vue/dist/antd.css'],
   typescript: { typeCheck: { eslint: true } },
   buildModules: [
     '@nuxt/typescript-build',
