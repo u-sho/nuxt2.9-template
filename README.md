@@ -4,15 +4,15 @@ This is a starter template for nuxt@^2.9 & TypeScript & jest.
 
 > This is like a fork of [starter-template](https://github.com/nuxt-community/starter-template) provided by nuxt-community.
 
-# Starter
+## Starter
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development.
 
-# Prerequisites
+## Prerequisites
 
 Make sure to have `node 8.0+` and `npm 5.0+` installed
 
-# Installation
+## Installation
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
@@ -25,9 +25,9 @@ $ yarn install # Or npm install
 
 > Makesure to use a version of vue-cli >= 2.1 (`vue -V).
 
-# Usage
+## Usage
 
-## Development
+### Development
 
 ``` bash
 # serve with hot reloading at localhost:3000
@@ -36,7 +36,7 @@ $ yarn dev
 
 Go to [http://localhost:3000](http://localhost:3000)
 
-## Production
+### Production
 
 ``` bash
 # build for production and launch the server
@@ -44,14 +44,14 @@ $ yarn build
 $ yarn start
 ```
 
-## Generate
+### Generate
 
 ``` bash
 # generate a static project
 $ yarn generate
 ```
 
-## Linting
+### Linting
 
 ``` bash
 # eslint for javascript, typescript, and vue file
@@ -63,17 +63,16 @@ $ yarn slint
 $ yarn slint --fix
 ```
 
-## Type Check
+### Type Check
 
 ``` bash
 # typecheck of typescript
 $ yarn tsc
 ```
 
-## Test
+### Test
 
 ``` bash
 # test vue components by jest or ts-jest
 $ yarn test
 ```
-
