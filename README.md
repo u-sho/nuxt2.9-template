@@ -1,5 +1,7 @@
 # nuxt2.9-template
 
+[日本語版](https://github.com/u-sho/nuxt2.9-template/blob/master/README.ja.md)
+
 This is a starter template for nuxt@^2.9 & TypeScript & jest.  
 Now, this is working on nuxt@2.11.0
 
