@@ -22,7 +22,7 @@ const nuxtConfig: Configuration = {
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module'
   ],
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
   axios: { https: true }
 }
 
