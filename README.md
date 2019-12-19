@@ -64,7 +64,7 @@ $ yarn generate
 $ yarn lint
 $ yarn lint --fix
 
-# stylelint for css, scss, and vue file
+# stylelint for css and vue file
 $ yarn slint
 $ yarn slint --fix
 ```
