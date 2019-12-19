@@ -1,6 +1,7 @@
 # nuxt2.9-template
 
 This is a starter template for nuxt@^2.9 & TypeScript & jest.
+Now, this is working on nuxt@2.11.0
 
 > This is like a fork of [starter-template](https://github.com/nuxt-community/starter-template) provided by nuxt-community.
 
