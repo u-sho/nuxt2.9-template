@@ -9,7 +9,7 @@
       "dom"
     ],
     "esModuleInterop": true,
-    "allowJs": false,
+    "allowJs": true,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
