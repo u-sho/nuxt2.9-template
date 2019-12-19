@@ -30,7 +30,7 @@ $ yarn lint
 # css/scss lint
 $ yarn slint
 
-# test
+# test and coverage report on file:///project-path/coverage/lcov-report/index.html
 $ yarn test
 
 # type check
