@@ -1,5 +1,7 @@
 # nuxt2.9-template
 
+[English version](https://github.com/u-sho/nuxt2.9-template/blob/master/README.md)
+
 これは nuxt@^2.9 + TypeScript + jest のスターターテンプレートです。  
 現在は nuxt@2.11.0 まで対応確認済です。
 
