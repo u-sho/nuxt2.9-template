@@ -9,8 +9,8 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --max-warnings 2 .",
-    "slint": "stylelint */*.css */*.scss */*.vue --config stylelint.config.js --max-warnings 2",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "slint": "stylelint */*.css */*.scss */*.vue --config stylelint.config.js",
     "test": "jest"
   },
   "dependencies": {
