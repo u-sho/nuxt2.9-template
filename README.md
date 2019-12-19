@@ -19,11 +19,20 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 ``` bash
 $ vue init u-sho/nuxt2.9-template/ my-project
 $ cd my-project
+
 # install dependencies
 $ yarn install # Or npm install
 ```
 
 > Makesure to use a version of vue-cli >= 2.1 (`vue -V).
+
+## If you need git
+
+``` bash
+$ git init
+```
+
+> NOTE: If you don't use git, `.gitignore` is important. `.gitignore` is used by ESlint & stylelint.
 
 ## Usage
 
