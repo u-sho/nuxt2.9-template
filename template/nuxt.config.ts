@@ -23,7 +23,7 @@ const nuxtConfig: Configuration = {
     '@nuxtjs/stylelint-module'
   ],
   modules: ['@nuxtjs/axios'],
-  axios: {}
+  axios: { https: true }
 }
 
 export default nuxtConfig
