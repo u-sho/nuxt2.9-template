@@ -11,7 +11,6 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended'
   ],
-  plugins: ['vue'],
   rules: {
     strict: ['error', 'global']
   }
