@@ -11,6 +11,17 @@
 
 これがあれば複雑な [Nuxt.ts](https://github.com/nuxt/nuxt.js) の設定をすっ飛ばして開発を始められます。
 
+- nuxt.config.ts
+- tsconfig.json
+- .eslintrc.js
+- stylelint.config.json
+- .prettierrc
+- axios *
+- ts-jest *
+- sass-loader *
+
+チェック * のついたオプションは [カスタマイズ](#カスタム) で簡単に取り除けます。
+
 ## インストール
 
 これは [vue-cli](https://github.com/vuejs/vue-cli) 上で動作します。
@@ -25,7 +36,7 @@ $ yarn install # Or npm install
 
 > vue-cli のバージョンが 2.1 以上であることを確認してください (`vue -V`)
 
-## git を導入する
+### git を導入する
 
 ``` bash
 $ git init
@@ -86,3 +97,15 @@ $ yarn tsc
 # Vue コンポーネントを jest を使ってテストします
 $ yarn test
 ```
+
+## カスタム
+
+- Sass が不要： このPR([#1](https://github.com/u-sho/nuxt2.9-template/pull/1)) を参考に `package.json` と `stylelint.config.js` から scss 関連の記述を取り除いたあと，`node_modules/` を一旦消して `yarn install` し直すと良いと思います。
+
+- jest が不要： このPR([#3](https://github.com/u-sho/nuxt2.9-template/pull/3)) を参考に `package.json` から jest 関連の記述を取り除いたあと，`node_modules/` と `test/` を消して `yarn install` し直すと良いと思います。
+
+- axios が不要： このPR([#5](https://github.com/u-sho/nuxt2.9-template/pull/5)) を参考に `package.json` と `nuxt.config.ts` と `tsconfig.json` から axios 関連の記述を取り除いたあと，`node_modules/` を一旦消して `yarn install` し直すと良いと思います。
+
+- TypeScript が不要： このレポジトリを使わずに [nuxt-create-app](https://github.com/nuxt/create-nuxt-app) を使えば良いんじゃないかな。
+
+- PWA が必要： こちらを [pwa.nuxtjs.org/](https://pwa.nuxtjs.org/) 参考に `package.json` と `nuxt.config.ts` に書き加えて `yarn install` すると良いと思います。
