@@ -11,6 +11,17 @@ Now, this is working on nuxt@2.11.0
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development.
 
+- nuxt.config.ts
+- tsconfig.json
+- .eslintrc.js
+- stylelint.config.json
+- .prettierrc
+- axios *
+- ts-jest *
+- sass-loader *
+
+You can [customize](#customization) * options
+
 ## Installation
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
@@ -25,7 +36,7 @@ $ yarn install # Or npm install
 
 > Makesure to use a version of vue-cli >= 2.1 (`vue -V).
 
-## If you need git
+### If you need git
 
 ``` bash
 $ git init
@@ -84,3 +95,16 @@ $ yarn tsc
 # test vue components by jest or ts-jest
 $ yarn test
 ```
+
+
+## Customization
+
+- Uninstall Sass: check this [PR #1](https://github.com/u-sho/nuxt2.9-template/pull/1) and edit `package.json`, `stylelint.config.js`. After that, remove `node_modules/` and Re:`yarn install`
+
+- Uninstall jest: check this [PR #3](https://github.com/u-sho/nuxt2.9-template/pull/3) and edit `package.json`. After that, remove `test/` and `node_modules` and Re:`yarn install` 
+
+- Uninstall axios： check this [PR #5](https://github.com/u-sho/nuxt2.9-template/pull/5) and edit `package.json`, `nuxt.config.ts`, `tsconfig.json`. After that, remove `node_modules/` and Re:`yarn install`
+
+- Uninstall TypeScript: Don't use this. Use [nuxt-create-app](https://github.com/nuxt/create-nuxt-app) 
+
+- Install PWA： check [pwa.nuxtjs.org/](https://pwa.nuxtjs.org/) and edit `package.json` and `nuxt.config.ts`
