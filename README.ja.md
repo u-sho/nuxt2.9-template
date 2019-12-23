@@ -7,6 +7,8 @@
 
 > これは nuxt-community から出ていた [starter-template](https://github.com/nuxt-community/starter-template) の fork みたいなものです。
 
+> **注意事項**: [`create-nuxt-app-ts`](https://github.com/nuxt/create-nuxt-app/pull/328) がマージされたら、このリポジトリは archive するつもりです。
+
 ## Starter
 
 これがあれば複雑な [Nuxt.ts](https://github.com/nuxt/nuxt.js) の設定をすっ飛ばして開発を始められます。
