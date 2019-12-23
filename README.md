@@ -7,6 +7,8 @@ Now, this is working on nuxt@2.11.0
 
 > This is like a fork of [starter-template](https://github.com/nuxt-community/starter-template) provided by nuxt-community.
 
+> **NOTE**: If [`create-nuxt-app-ts`](https://github.com/nuxt/create-nuxt-app/pull/328) is merged, this repository will be archived.
+
 ## Starter
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development.
