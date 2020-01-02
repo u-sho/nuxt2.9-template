@@ -36,4 +36,3 @@ $ yarn test
 # type check
 $ yarn tsc
 ```
-
