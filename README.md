@@ -1,4 +1,6 @@
 # nuxt2.9-template
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fu-sho%2Fnuxt2.9-template.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fu-sho%2Fnuxt2.9-template?ref=badge_shield)
+
 
 [日本語版](https://github.com/u-sho/nuxt2.9-template/blob/master/README.ja.md)
 
@@ -110,3 +112,7 @@ $ yarn test
 - Uninstall TypeScript: Don't use this. Use [nuxt-create-app](https://github.com/nuxt/create-nuxt-app) 
 
 - Install PWA： check [pwa.nuxtjs.org/](https://pwa.nuxtjs.org/) and edit `package.json` and `nuxt.config.ts`
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fu-sho%2Fnuxt2.9-template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fu-sho%2Fnuxt2.9-template?ref=badge_large)
