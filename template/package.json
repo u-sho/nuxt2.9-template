@@ -10,7 +10,7 @@
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
     "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
-    "slint": "stylelint */*.css */*.scss */*.vue --config stylelint.config.js",
+    "slint": "stylelint */*.css */*.vue --config stylelint.config.js",
     "test": "jest"
   },
   "dependencies": {
@@ -31,14 +31,11 @@
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.1.0",
-    "node-sass": "^4.13.0",
     "prettier": "^1.16.4",
     "prettier-stylelint": "^0.4.2",
-    "sass-loader": "^8.0.0",
     "stylelint": "^11.0.0",
     "stylelint-config-prettier": "^8.0.0",
     "stylelint-config-standard": "^19.0.0",
-    "stylelint-scss": "^3.13.0",
     "vue-jest": "^4.0.0-0"
   }
 }
