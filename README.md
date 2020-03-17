@@ -1,13 +1,13 @@
 # nuxt2.9-template
 
+**NOTE**: [`create-nuxt-app-ts`](https://github.com/nuxt/create-nuxt-app/pull/328) is merged. You can use it.
+
 [日本語版](https://github.com/u-sho/nuxt2.9-template/blob/master/README.ja.md)
 
 This is a starter template for nuxt@^2.9 & TypeScript & jest.  
 Now, this is working on nuxt@2.11.0
 
 > This is like a fork of [starter-template](https://github.com/nuxt-community/starter-template) provided by nuxt-community.
-
-> **NOTE**: If [`create-nuxt-app-ts`](https://github.com/nuxt/create-nuxt-app/pull/328) is merged, this repository will be archived.
 
 ## Starter
 
