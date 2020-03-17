@@ -1,13 +1,13 @@
 # nuxt2.9-template
 
+**注意事項**: [`create-nuxt-app-ts`](https://github.com/nuxt/create-nuxt-app/pull/328) がマージされました。そちらの方が融通が効くと思います。
+
 [English version](https://github.com/u-sho/nuxt2.9-template/blob/master/README.md)
 
 これは nuxt@^2.9 + TypeScript + jest のスターターテンプレートです。  
 現在は nuxt@2.11.0 まで対応確認済です。
 
 > これは nuxt-community から出ていた [starter-template](https://github.com/nuxt-community/starter-template) の fork みたいなものです。
-
-> **注意事項**: [`create-nuxt-app-ts`](https://github.com/nuxt/create-nuxt-app/pull/328) がマージされたら、このリポジトリは archive するつもりです。
 
 ## Starter
 
